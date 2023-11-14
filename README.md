@@ -1,5 +1,5 @@
 
-# CSS Module Transformer -NPM Package 
+# Buildtime CSS Module Transformer 
 
 Babel CSS Module Transformer is a Babel plugin designed to automatically transform classnames in JSX attributes to use CSS modules. This plugin replaces className="example" with className={styles.example} for static classnames and className={dynamicClassName} with className={styles[dynamicClassName]} for dynamic classnames.
 
